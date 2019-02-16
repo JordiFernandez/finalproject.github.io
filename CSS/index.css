@@ -32,6 +32,11 @@ li{
 	display: inline;
 }
 
+.menu:hover{
+	color: red;
+	background-color: white;
+}
+
 
 #banner{
 	height: 200px;
