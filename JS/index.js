@@ -17,5 +17,5 @@ window.onload = function(){
 
 	$(".idiv").animate({
 		fontSize: "20px"
-	},1000);
+	},3000);
 }
