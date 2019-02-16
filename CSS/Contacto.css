@@ -1,0 +1,80 @@
+html{
+	margin: 0;
+	padding: 0;
+	font-family: Calibri;
+}
+
+nav {
+	height: 30px;
+	background-color: blue;
+	align-items: center;
+	font-size: 25px;
+	margin-bottom: 16px;
+}
+
+a:link{
+	
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	align-items: center;
+
+}
+
+li a{
+	color: white;
+	text-align: center;
+	padding-right: 14px;
+	padding-left: 14px;
+}
+
+li{
+	display: inline;
+}
+
+.menu:hover{
+	color: red;
+	background-color: white;
+}
+
+#unique{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#text{
+	font-size: 18px;
+	width: 510px;
+
+}
+
+fieldset{
+	font-size: 20px;
+	width: 490px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+}
+
+
+input,textarea{
+	width: 450px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+label{
+	margin-left: 20px;
+}
+
+footer{
+	color: white;
+	text-align: center;
+	background-color: rgba(240,0,0,1);
+}
